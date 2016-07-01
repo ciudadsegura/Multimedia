@@ -1,0 +1,888 @@
+html,body {
+ height: 100%;
+}
+
+.hoverTable{
+	width:100%; 
+	border-collapse:collapse; 
+}
+/* Define the hover highlight color for the table row */
+.hoverTable tr:hover {
+      background-color: #81DAF5;
+}
+
+.color_calendario_dia {
+      background-color: #84bdcd !important;
+}
+
+.color_dias_no_habiles {
+    color: #cbcbcb !important;
+}
+
+.color_th_Calendar {
+    background: none repeat scroll 0 0 #4b5759 !important;
+    color: #fff;
+    font-size: 11px;
+    height: 30px;
+}
+
+.puntero {
+    cursor: pointer;
+}
+
+table{
+ cursor: default;
+}
+
+#main-section {
+ min-height: 100%;
+}
+
+#footer {
+ background: #616161;
+ color: #fff;
+ margin-top: 50px;
+ padding: 15px 0px;
+ z-index: 10;
+ position: relative;
+ bottom: 0;
+ width: 100%;
+}
+
+.footer-image {
+ border-right: 1px solid #fff;
+ text-align: right;
+ padding-right: 15px !important;
+}
+
+.footer-text {
+ padding-top: 5px;
+ padding-left: 15px !important;
+ text-align: center;
+}
+
+.panel-heading {
+	padding: 6px;
+}
+
+.panel-body {
+	padding: 25px 0;
+}
+
+.form-horizontal .control-label {
+	text-align: left;
+}
+
+
+.form-horizontal .form-group {
+    margin-left: -5px;
+    margin-right: -15px;
+}
+
+.oculto{
+    display: none;
+}
+
+.ocultar_title{
+    display: none !important;
+}
+
+.width100{
+	width: 100%;
+}
+
+.width15{
+	width: 15%;
+}
+
+.width22{
+	width: 22%;
+}
+
+.width800{
+	width: 800px;
+}
+
+.width900{
+	width: 900px;
+}
+
+.width929{
+	width: 929px;
+}
+
+.width600{
+	width: 600px;
+}
+
+.width60{
+ width: 60% !important;
+}
+
+.fancybox-outer{
+ padding: 0px 15px 15px 15px !important;
+}
+
+.nombre_usuario{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.nombre_escuela{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0px;
+}
+
+.titulo_fancy{
+ padding: 12px;
+ font-size: 14px !important; 
+ color: #FFFFFF !important;
+ margin: 15px 0px 0px;
+ font: bold 12px "Trebuchet MS";
+ background-color: #0a7c9b !important;
+}
+
+.borde{
+	border-bottom: solid 1px;
+	border-bottom-color: #ed770c;
+	font: bold 12px "Trebuchet MS";
+	padding: 2px;
+}
+
+/***** Formulario *****/
+.panel_formulario {
+	background-color: #F7F7F7;
+	border: 1px solid #F2F2F2 !important;
+}
+
+.panel_interno {
+	padding: 14px 20px;
+}
+
+.titulo_formulario {
+	border-bottom: 1px solid #999;
+	color: #797979;
+	font-size: 12px;
+	font-weight: 600;
+	margin: 0 0 5px;
+	padding: 5px 0;
+}
+
+.panle_agregar_borde_exterior {
+ border: 1px solid #F2F2F2 !important;
+ background-color: #fdfdfd;
+}
+
+.no_margin_bottom {
+ margin-bottom: 0px !important;
+}
+
+#borde
+{
+	border-bottom: solid 1px;
+	border-bottom-color: #ed770c;
+}
+
+#nopadding{
+	padding: 0px;
+}
+
+
+.mgl-21{
+	margin-left: -21px;
+}
+
+.fancybox-inner{
+    height: auto !important;
+    overflow: auto;
+    width: 390px;
+}
+
+.ui-datepicker td.ui-datepicker-today a {
+    background: none repeat scroll 0 0 rgba(65, 65, 65, 0.1) !important;
+}
+
+.sin_borde {
+	border: 0px !important;
+}
+
+.cb {
+	clear: both;
+}
+
+.cl {
+	clear: left;
+}
+
+.cr {
+	clear: right;
+}
+
+/***** Padding *****/
+.sin_padding {
+	padding: 0px !important;
+}
+
+.pa5 {
+	padding: 5px;
+}
+
+.pa10 {
+	padding: 10px;
+}
+
+.pa15 {
+	padding: 15px;
+}
+
+.pa20 {
+	padding: 20px;
+}
+
+.pt3{
+	padding-top: 3px;
+}
+
+.pt8 {
+	padding-top: 8px;
+}
+
+.pt5 {
+	padding-top: 5px !important;
+}
+
+.pt10 {
+	padding-top: 10px !important;
+}
+
+.pt15 {
+	padding-top: 15px;
+}
+
+.pt20 {
+	padding-top: 20px;
+}
+
+.pt50 {
+	padding-top: 50px !important;
+}
+
+.pr0 {
+	padding-right: 0px !important;
+}
+
+.pr5 {
+	padding-right: 5px;
+}
+
+.pr10 {
+	padding-right: 10px;
+}
+
+.pr15 {
+	padding-right: 15px;
+}
+
+.pr20 {
+	padding-right: 20px;
+}
+
+.pb0{
+	padding-bottom: 0px !important;
+}
+
+.pb5 {
+	padding-bottom: 5px !important;
+}
+
+.pb6 {
+	padding-bottom: 6px !important;
+}
+
+.pb10 {
+	padding-bottom: 10px;
+}
+
+.pb15 {
+	padding-bottom: 15px;
+}
+
+.pb20 {
+	padding-bottom: 20px;
+}
+
+.pl0 {
+	padding-left: 0px !important;
+}
+
+.pl4{
+	padding-left: 4px;
+}
+
+.pl5 {
+	padding-left: 5px;
+}
+
+.pl10 {
+	padding-left: 10px;
+}
+
+.pt6 {
+	padding-top: 6px !important;
+}
+
+.pl15 {
+	padding-left: 15px;
+}
+
+.pl20 {
+	padding-left: 20px !important;
+}
+
+.pl25 {
+	padding-left: 25px;
+}
+
+.pl30 {
+	padding-left: 30px;
+}
+
+/***** Margin *****/
+.sin_margen {
+	margin: 0px !important;
+}
+
+.ma5 {
+	margin: 5px;
+}
+
+.ma10 {
+	margin: 10px;
+}
+
+.ma15 {
+	margin: 15px;
+}
+
+.ma20 {
+	margin: 20px;
+}
+
+.mb-10{
+	margin-top: -11px;
+}
+
+.mt0 {
+	margin-top: 0px;
+}
+
+.mt5 {
+	margin-top: 5px;
+}
+
+.mt6{
+	margin-top: 6px !important;
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+
+.mt15 {
+	margin-top: 15px;
+}
+
+.mt20 {
+	margin-top: 20px;
+}
+
+.ml-20 {
+	margin-left: -20px;
+}
+
+.ml-35 {
+	margin-left: -35px;
+}
+
+.mr-20 {
+	margin-right: -20px;
+}
+.mr {
+	margin-right: 0px;
+}
+
+.mr5 {
+	margin-right: 5px;
+}
+
+.mr10 {
+	margin-right: 10px !important;
+}
+
+.mr15 {
+	margin-right: 15px;
+}
+
+.mr20 {
+	margin-right: 20px;
+}
+
+.mr30 {
+	margin-right: 30px;
+}
+
+.mr40 {
+	margin-right: 40px;
+}
+
+.mb0 {
+	margin-bottom: 0px;
+}
+
+.mb5 {
+	margin-bottom: 5px;
+}
+
+.mb10 {
+	margin-bottom: 10px;
+}
+
+.mb15 {
+	margin-bottom: 15px;
+}
+
+.mb20 {
+	margin-bottom: 20px;
+}
+
+.ml0 {
+	margin-left: 0px !important;
+}
+
+.ml5 {
+	margin-left: 5px;
+}
+
+.ml10 {
+	margin-left: 10px;
+}
+
+.ml15 {
+	margin-left: 15px;
+}
+
+.ml20 {
+	margin-left: 20px;
+}
+
+.ml105{
+	margin-left: 105px;
+}
+
+/***** Formulario *****/
+.label_busqueda {
+	padding-left: 0;
+}
+
+.input_busqueda {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.btn_busqueda {
+	width: 80%;
+}
+
+.alineacion_izq {
+	text-align: left !important;
+}
+
+.alineacion_der {
+	text-align: right !important;
+}
+
+.alineacion_cen {
+	text-align: center !important;
+}
+
+.no_margin {
+	margin: 0 !important;
+}
+
+.label_error {
+	color: #a94442;
+	font-size: 10px;
+	font-weight: normal;
+	padding: 5px 5px 10px !important;
+}
+
+
+.width80p {
+	width: 80%;
+}
+
+.width20 {
+	width: 20px;
+}
+
+.width240 {
+	width: 240px;
+}
+
+.width230 {
+	width: 230px;
+}
+
+.width300 {
+	width: 300px;
+}
+
+.width320 {
+	width: 320px;
+}
+
+.width400 {
+	width: 400px;
+}
+
+.width440 {
+	width: 440px;
+}
+
+.width450 {
+	width: 450px;
+}
+
+.width500 {
+	width: 500px;
+}
+
+.borde_superior {
+	border-top: 1px solid #ddd !important;
+}
+
+.borde_izquierdo {
+	border-left: 1px solid #ddd;
+}
+
+.borde_derecho {
+	border-right: 1px solid #ddd;
+}
+
+.borde_inferior {
+	border-bottom: 1px solid #ddd;
+}
+
+.titulo_editar{
+	color: #636e7b;
+	font: bold 15px "Trebuchet MS";
+}
+
+.borde_editar{
+	border-bottom: solid 1px;
+	border-bottom-color: #ed770c;
+	margin-left: 20px;
+}
+
+.borde_submenu{
+	border-bottom: solid 1px;
+	border-bottom-color: #ddd;
+	margin-left: 20px;
+}
+
+.borde_cuadro_editar{
+	border: solid 1px;
+	border-color: #d9d9d9 !important;
+}
+
+.confirmacion_fancy{
+ padding: 12px;
+ font-size: 14px !important; 
+ color: #d9d9d9;
+ font: bold 12px "Trebuchet MS";
+}
+
+.input-group-addon{
+padding: 5px 10px !important;
+}
+
+#padding_left
+{
+	padding-left: 0px !important;
+}
+
+#ml0{
+	margin-left: 0px !important;
+}
+
+.registros {
+    font-weight: 700;
+    padding: 6px 0;
+}
+
+.encabezados_detalles{
+	color: #4b5759;
+	font: bold 14px;
+}
+
+.width50p{
+width: 50%;
+}
+
+.color_status_activo{
+	color: #20C80D;
+}
+
+.color_status_inactivo{
+	color: #FB8239;
+}
+
+.color_status_trayecto{
+	color: #0a7c9b;
+}
+
+.color_fila_seleccionada{
+	color: #84bdcd;
+}
+
+.control-label {
+    padding: 5px !important;
+}
+
+.table > thead > tr > th {
+    border-bottom: 1px solid #ddd;
+    vertical-align: text-top !important;
+}
+
+.fondo_tabla{
+	background-color: white;
+}
+
+.fondo_tabla_gris{
+	background-color: #616161;
+}
+
+.color_texto_blanco{
+	color: #ffffff !important;
+	font-weight: bold;
+}
+
+.panel-signin, .panel-signup {
+    background-color: #bedfdd;
+    border-radius: 0;
+    box-shadow: 0 0 0px #999;
+    margin: 210px auto 0;
+}
+
+.panel-signin {
+    width: 250px !important;
+}
+
+.img_style{
+    border-top-width: 0;
+    margin-top: 140px;
+    position: absolute;
+    z-index: -1;
+}
+
+.btn_style{
+    border-top-width: 0;
+    margin-top: 10px;
+    position: absolute;
+    z-index: -1;
+}
+
+.fondo_celda{
+	 background-color: #d9d9d9;
+}
+
+.img_detalles{
+	width: 150px;
+	height: 150px;
+}
+
+.tamaño_imagen{
+	width: 230px;
+	height: 60px;
+}
+
+.headerwrapper {
+    background-color: #0a7c9b !important;
+}
+
+.leftpanel .nav > li > a {
+    color: #0a7c9b;
+}
+
+.style_margen {
+    margin-bottom: 5px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 230px;
+}
+
+.width160{
+	width: 160px;
+}
+
+.width750{
+	width: 750px;
+}
+
+.width75{
+	width: 75px;
+}
+
+.width200{
+	width: 200px;
+}
+
+.width225{
+	width: 225px;
+}
+.width250{
+	width: 250px;
+}
+
+.btn_menu{
+	background-color: rgba(0, 0, 0, 0.1) !important; 
+	padding: 7px 12px;
+}
+
+.btn_menu:hover,.btn_menu:active,.btn_menu:focus{
+	background-color: rgba(0, 0, 0, 0.2) !important;  
+	padding: 7px 12px;
+}
+
+.pageheader {
+    height: 40px;
+    padding: 0 5px;
+    width: 400px;
+}
+
+.iconos_opciones {
+    color: #FFFFFF !important;
+}
+
+.borde_bottom{
+	border-bottom: solid 1px;
+	border-color: #d9d9d9 !important;
+}
+
+.titulo_bienvenida{
+	font-size: 13px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.nip_stilo{
+	font-size: 13px;
+	color: #000;
+	font-weight: bold;
+}
+
+.headerwrapper .header-right .btn-group {
+    float: left;
+    line-height: 12px !important;
+	margin-top: 0;
+}
+
+.bootstrap-timepicker-widget table td {
+    height: 30px;
+    margin: 0;
+    padding: 2px;
+    text-align: -moz-center !important;
+}
+
+.checkbox-inline {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 3px !important;
+}
+
+textarea
+{
+	resize: none;
+}
+
+.titulo_kid_track{
+	font-size  : 20px;
+	font-family: "Tahoma";
+	font-weight: bold;
+	color: #0a7c9b;
+}
+
+.titulo_on{
+	font-size  : 12px;
+	font-family: "Tahoma";
+	font-weight: bold;
+	color: #0a7c9b;
+}
+
+.titulo_transporte_escolar{
+	font-size  : 10px;
+	font-family: "Tahoma";
+	color: #ed770c;
+}
+
+.not-active{
+   pointer-events: none;
+}
+
+.texto-negrita{
+	font-weight: bold;
+}
+
+.fondo_login{
+	background-color: #bedfdd;
+}
+
+/*.btn_login,.btn_login:hover{
+	background-image: url("../images/btn_aceptar.png") !important;
+	font-weight: bold;
+}
+*/
+
+.borde_input_login,.borde_input_login:focus{
+	border: 1px solid #60a4b1;
+}
+
+.fondo_img_login{
+	background-image: url("../imagenes/stv.png");
+    background-repeat: repeat-x;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.imagen_bus{
+	bottom: 0;
+    position: absolute;
+	left: 45%;
+}
+
+.bootstrap-timepicker-widget table td a i {
+    margin-top: 0 !important;
+}
+
+.bootstrap-timepicker-widget table td {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    text-align: -moz-center !important;
+}
+
+.bootstrap-timepicker-widget.dropdown-menu {
+    padding: 0;
+}
+
+.bootstrap-timepicker-widget table td a {
+    padding: 0 !important;
+}
+
+
